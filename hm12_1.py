@@ -3,7 +3,7 @@ import codecs
 
 def delete_html_tags(html_file: str, result_file: str = 'cleaned.txt') -> None:
     """
-    Функія читає HTML файл, видаляє HTML теги та після чого записує очищений текст у текстовий файл
+    Функція читає HTML файл, видаляє HTML теги та після чого записує очищений текст у текстовий файл
 
     Args:
         html_file: файл draft.html
